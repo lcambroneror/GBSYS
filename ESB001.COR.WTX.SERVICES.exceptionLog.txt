@@ -1,0 +1,2 @@
+ ====== Exception trace starting at 2021-04-05 19:34:12.534719 for pid 16122192 ====== 
+2021-04-19 15:11:50.677093         1800     THROWN  txm1004   RecoverableException    _InitTX  'Exception'    :0  
