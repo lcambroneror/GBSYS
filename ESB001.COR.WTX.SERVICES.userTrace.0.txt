@@ -1,0 +1,827 @@
+
+====== Starting plaintext trace (process ID 16122242 - ESB001.COR.WTX.SERVICES) ======
+=== Build ib1100-L201216.45 (S1100-L201215.21186) - IBM App Connect Enterprise 11.0.0.11 ===
+=== Platform AIX / 00F9D1714C00 / 2 7 ===
+=== Timestamps are formatted in local time, 360 minutes before GMT. ===
+=== Time now 2021-01-27 12:01:20.963926 ===
+
+2021-01-27 13:55:35.831192     8739  UserTrace   BIP2380I: ACE message flow statistics. ProcessID='16122242', Key='0', Type='SnapShot', Reason='Shutdown', integrationNodeLabel='ESB001', integrationNodeUUID='a47dc484-60c9-11eb-9b24-0a8805660000', integrationServerName='COR.WTX.SERVICES', integrationServerUUID='00000000-0000-0000-0000-000000000000', MessageFlowName='net.bac.services.CORTransformation.CORFileTransfer', StartDate='2021-01-27', StartTime='13:55:27.141741', GMTStartTime='2021-01-27T19:55:27.141+00:00', EndDate='2021-01-27', GMTEndTime='2021-01-27T19:55:34.426+00:00', EndTime='13:55:34.426653', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CPUTimeWaitingForInputMessage='126', ElapsedTimeWaitingForInputMessage='10000135', TotalInputMessages='0', TotalSizeOfInputMessages='0', MaximumSizeOfInputMessages='0', MinimumSizeOfInputMessages='0', NumberOfThreadsInPool='2', TimesMaximumNumberOfThreadsReached='0', TotalNumberOfMQErrors='0', TotalNumberOfMessagesWithErrors='0', TotalNumberOfErrorsProcessingMessages='0', TotalNumberOfTimeOuts='0', TotalNumberOfCommits='0', TotalNumberOfBackouts='0', AccountingOrigin='Anonymous'. 
+Statistical information for message flow 'net.bac.services.CORTransformation.CORFileTransfer' in integration node 'ESB001'. 
+This is an information message produced by ACE statistics. 
+2021-01-27 13:55:35.833668     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122242', Key='0', Label='CORTReportError', Type='SubFlowNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'CORTReportError'. 
+This is an information message produced by ACE statistics. 
+2021-01-27 13:55:35.833712     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122242', Key='0', Label='CORTReportError.Dump_ExceptionList_SubFlowV', Type='SubFlowNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'CORTReportError.Dump_ExceptionList_SubFlowV'. 
+This is an information message produced by ACE statistics. 
+2021-01-27 13:55:35.833752     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122242', Key='0', Label='CORTReportError.Dump_ExceptionList_SubFlowV.Dump Exception', Type='TraceNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'CORTReportError.Dump_ExceptionList_SubFlowV.Dump Exception'. 
+This is an information message produced by ACE statistics. 
+2021-01-27 13:55:35.833788     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122242', Key='0', Label='CORTReportError.Dump_ExceptionList_SubFlowV.GetVaribles', Type='ComputeNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='6'. 
+Statistical information for node 'CORTReportError.Dump_ExceptionList_SubFlowV.GetVaribles'. 
+This is an information message produced by ACE statistics. 
+2021-01-27 13:55:35.833824     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122242', Key='0', Label='CORTReportError.Dump_ExceptionList_SubFlowV.InTerminal.InErrMsg', Type='InputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'CORTReportError.Dump_ExceptionList_SubFlowV.InTerminal.InErrMsg'. 
+This is an information message produced by ACE statistics. 
+2021-01-27 13:55:35.833872     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122242', Key='0', Label='CORTReportError.Dump_ExceptionList_SubFlowV.OutTerminal.OutErrMsg', Type='OutputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'CORTReportError.Dump_ExceptionList_SubFlowV.OutTerminal.OutErrMsg'. 
+This is an information message produced by ACE statistics. 
+2021-01-27 13:55:35.833908     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122242', Key='0', Label='CORTReportError.Error', Type='MQOutputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='2'. 
+Statistical information for node 'CORTReportError.Error'. 
+This is an information message produced by ACE statistics. 
+2021-01-27 13:55:35.833948     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122242', Key='0', Label='CORTReportError.InTerminal.Input', Type='InputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'CORTReportError.InTerminal.Input'. 
+This is an information message produced by ACE statistics. 
+2021-01-27 13:55:35.833980     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122242', Key='0', Label='CORTReportError.SetError', Type='ComputeNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='6'. 
+Statistical information for node 'CORTReportError.SetError'. 
+This is an information message produced by ACE statistics. 
+2021-01-27 13:55:35.834020     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122242', Key='0', Label='CleanCache', Type='ComputeNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='6'. 
+Statistical information for node 'CleanCache'. 
+This is an information message produced by ACE statistics. 
+2021-01-27 13:55:35.834052     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122242', Key='0', Label='Dump_ExceptionList_SubFlowV2', Type='SubFlowNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'Dump_ExceptionList_SubFlowV2'. 
+This is an information message produced by ACE statistics. 
+2021-01-27 13:55:35.834092     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122242', Key='0', Label='Dump_ExceptionList_SubFlowV2.Dump Exception', Type='TraceNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'Dump_ExceptionList_SubFlowV2.Dump Exception'. 
+This is an information message produced by ACE statistics. 
+2021-01-27 13:55:35.834260     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122242', Key='0', Label='Dump_ExceptionList_SubFlowV2.GetVaribles', Type='ComputeNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='6'. 
+Statistical information for node 'Dump_ExceptionList_SubFlowV2.GetVaribles'. 
+This is an information message produced by ACE statistics. 
+2021-01-27 13:55:35.834384     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122242', Key='0', Label='Dump_ExceptionList_SubFlowV2.InTerminal.InErrMsg', Type='InputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'Dump_ExceptionList_SubFlowV2.InTerminal.InErrMsg'. 
+This is an information message produced by ACE statistics. 
+2021-01-27 13:55:35.834428     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122242', Key='0', Label='Dump_ExceptionList_SubFlowV2.OutTerminal.OutErrMsg', Type='OutputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'Dump_ExceptionList_SubFlowV2.OutTerminal.OutErrMsg'. 
+This is an information message produced by ACE statistics. 
+2021-01-27 13:55:35.834460     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122242', Key='0', Label='Error', Type='MQOutputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='2'. 
+Statistical information for node 'Error'. 
+This is an information message produced by ACE statistics. 
+2021-01-27 13:55:35.834508     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122242', Key='0', Label='FO1', Type='FlowOrderNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='3'. 
+Statistical information for node 'FO1'. 
+This is an information message produced by ACE statistics. 
+2021-01-27 13:55:35.834544     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122242', Key='0', Label='FO2', Type='FlowOrderNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='3'. 
+Statistical information for node 'FO2'. 
+This is an information message produced by ACE statistics. 
+2021-01-27 13:55:35.834584     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122242', Key='0', Label='FO3', Type='FlowOrderNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='3'. 
+Statistical information for node 'FO3'. 
+This is an information message produced by ACE statistics. 
+2021-01-27 13:55:35.834616     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122242', Key='0', Label='File', Type='MQOutputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='2'. 
+Statistical information for node 'File'. 
+This is an information message produced by ACE statistics. 
+2021-01-27 13:55:35.834652     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122242', Key='0', Label='GetContext', Type='MQGetNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='4'. 
+Statistical information for node 'GetContext'. 
+This is an information message produced by ACE statistics. 
+2021-01-27 13:55:35.834696     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122242', Key='0', Label='GetParams', Type='ComputeNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='6'. 
+Statistical information for node 'GetParams'. 
+This is an information message produced by ACE statistics. 
+2021-01-27 13:55:35.834732     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122242', Key='0', Label='LRGSA.COR.REQUEST.FILETRANSFERBLOB', Type='MQInputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='0', NumberOfOutputTerminals='3'. 
+Statistical information for node 'LRGSA.COR.REQUEST.FILETRANSFERBLOB'. 
+This is an information message produced by ACE statistics. 
+2021-01-27 13:55:35.834772     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122242', Key='0', Label='MQ Reply.ComIbmMQOutput', Type='MQOutputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='2'. 
+Statistical information for node 'MQ Reply.ComIbmMQOutput'. 
+This is an information message produced by ACE statistics. 
+2021-01-27 13:55:35.834804     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122242', Key='0', Label='PutMsgId', Type='ComputeNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='6'. 
+Statistical information for node 'PutMsgId'. 
+This is an information message produced by ACE statistics. 
+2021-01-27 13:55:35.834840     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122242', Key='0', Label='RefreshCache Input', Type='MQInputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='0', NumberOfOutputTerminals='3'. 
+Statistical information for node 'RefreshCache Input'. 
+This is an information message produced by ACE statistics. 
+2021-01-27 13:55:35.834876     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122242', Key='0', Label='Report Output', Type='MQOutputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='2'. 
+Statistical information for node 'Report Output'. 
+This is an information message produced by ACE statistics. 
+2021-01-27 13:55:35.834912     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122242', Key='0', Label='Service', Type='MQOutputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='2'. 
+Statistical information for node 'Service'. 
+This is an information message produced by ACE statistics. 
+2021-01-27 13:55:35.834948     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122242', Key='0', Label='SetCorrelId', Type='ComputeNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='6'. 
+Statistical information for node 'SetCorrelId'. 
+This is an information message produced by ACE statistics. 
+2021-01-27 13:55:35.834984     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122242', Key='0', Label='SetMsgId', Type='ComputeNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='6'. 
+Statistical information for node 'SetMsgId'. 
+This is an information message produced by ACE statistics. 
+2021-01-27 13:55:35.835028     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122242', Key='0', Label='SetQFILE', Type='ComputeNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='6'. 
+Statistical information for node 'SetQFILE'. 
+This is an information message produced by ACE statistics. 
+2021-01-27 13:55:35.835064     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122242', Key='0', Label='SetResponse', Type='ComputeNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='6'. 
+Statistical information for node 'SetResponse'. 
+This is an information message produced by ACE statistics. 
+2021-01-27 13:55:35.835104     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122242', Key='0', Label='Try Catch', Type='TryCatchNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='2'. 
+Statistical information for node 'Try Catch'. 
+This is an information message produced by ACE statistics. 
+2021-01-27 13:55:35.835164     8739  UserTrace   BIP2380I: ACE message flow statistics. ProcessID='16122242', Key='1', Type='SnapShot', Reason='Shutdown', integrationNodeLabel='ESB001', integrationNodeUUID='a47dc484-60c9-11eb-9b24-0a8805660000', integrationServerName='COR.WTX.SERVICES', integrationServerUUID='00000000-0000-0000-0000-000000000000', MessageFlowName='net.bac.services.CORTransformation.CORMultResponseFormat', StartDate='2021-01-27', StartTime='13:55:30.815538', GMTStartTime='2021-01-27T19:55:30.815+00:00', EndDate='2021-01-27', GMTEndTime='2021-01-27T19:55:35.815+00:00', EndTime='13:55:35.815923', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CPUTimeWaitingForInputMessage='76', ElapsedTimeWaitingForInputMessage='5000234', TotalInputMessages='0', TotalSizeOfInputMessages='0', MaximumSizeOfInputMessages='0', MinimumSizeOfInputMessages='0', NumberOfThreadsInPool='1', TimesMaximumNumberOfThreadsReached='0', TotalNumberOfMQErrors='0', TotalNumberOfMessagesWithErrors='0', TotalNumberOfErrorsProcessingMessages='0', TotalNumberOfTimeOuts='0', TotalNumberOfCommits='0', TotalNumberOfBackouts='0', AccountingOrigin='Anonymous'. 
+Statistical information for message flow 'net.bac.services.CORTransformation.CORMultResponseFormat' in integration node 'ESB001'. 
+This is an information message produced by ACE statistics. 
+2021-01-27 13:55:35.835216     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122242', Key='1', Label='CORTReportError', Type='SubFlowNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'CORTReportError'. 
+This is an information message produced by ACE statistics. 
+2021-01-27 13:55:35.835248     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122242', Key='1', Label='CORTReportError.Dump_ExceptionList_SubFlowV', Type='SubFlowNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'CORTReportError.Dump_ExceptionList_SubFlowV'. 
+This is an information message produced by ACE statistics. 
+2021-01-27 13:55:35.835280     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122242', Key='1', Label='CORTReportError.Dump_ExceptionList_SubFlowV.Dump Exception', Type='TraceNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'CORTReportError.Dump_ExceptionList_SubFlowV.Dump Exception'. 
+This is an information message produced by ACE statistics. 
+2021-01-27 13:55:35.835312     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122242', Key='1', Label='CORTReportError.Dump_ExceptionList_SubFlowV.GetVaribles', Type='ComputeNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='6'. 
+Statistical information for node 'CORTReportError.Dump_ExceptionList_SubFlowV.GetVaribles'. 
+This is an information message produced by ACE statistics. 
+2021-01-27 13:55:35.835340     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122242', Key='1', Label='CORTReportError.Dump_ExceptionList_SubFlowV.InTerminal.InErrMsg', Type='InputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'CORTReportError.Dump_ExceptionList_SubFlowV.InTerminal.InErrMsg'. 
+This is an information message produced by ACE statistics. 
+2021-01-27 13:55:35.835364     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122242', Key='1', Label='CORTReportError.Dump_ExceptionList_SubFlowV.OutTerminal.OutErrMsg', Type='OutputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'CORTReportError.Dump_ExceptionList_SubFlowV.OutTerminal.OutErrMsg'. 
+This is an information message produced by ACE statistics. 
+2021-01-27 13:55:35.835396     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122242', Key='1', Label='CORTReportError.Error', Type='MQOutputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='2'. 
+Statistical information for node 'CORTReportError.Error'. 
+This is an information message produced by ACE statistics. 
+2021-01-27 13:55:35.835424     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122242', Key='1', Label='CORTReportError.InTerminal.Input', Type='InputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'CORTReportError.InTerminal.Input'. 
+This is an information message produced by ACE statistics. 
+2021-01-27 13:55:35.835452     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122242', Key='1', Label='CORTReportError.SetError', Type='ComputeNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='6'. 
+Statistical information for node 'CORTReportError.SetError'. 
+This is an information message produced by ACE statistics. 
+2021-01-27 13:55:35.835480     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122242', Key='1', Label='Dump_ExceptionList_SubFlowV2', Type='SubFlowNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'Dump_ExceptionList_SubFlowV2'. 
+This is an information message produced by ACE statistics. 
+2021-01-27 13:55:35.835516     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122242', Key='1', Label='Dump_ExceptionList_SubFlowV2.Dump Exception', Type='TraceNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'Dump_ExceptionList_SubFlowV2.Dump Exception'. 
+This is an information message produced by ACE statistics. 
+2021-01-27 13:55:35.835540     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122242', Key='1', Label='Dump_ExceptionList_SubFlowV2.GetVaribles', Type='ComputeNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='6'. 
+Statistical information for node 'Dump_ExceptionList_SubFlowV2.GetVaribles'. 
+This is an information message produced by ACE statistics. 
+2021-01-27 13:55:35.835572     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122242', Key='1', Label='Dump_ExceptionList_SubFlowV2.InTerminal.InErrMsg', Type='InputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'Dump_ExceptionList_SubFlowV2.InTerminal.InErrMsg'. 
+This is an information message produced by ACE statistics. 
+2021-01-27 13:55:35.835596     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122242', Key='1', Label='Dump_ExceptionList_SubFlowV2.OutTerminal.OutErrMsg', Type='OutputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'Dump_ExceptionList_SubFlowV2.OutTerminal.OutErrMsg'. 
+This is an information message produced by ACE statistics. 
+2021-01-27 13:55:35.835624     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122242', Key='1', Label='LRGSA.COR.RESPONSE.MULTFORMAT', Type='MQInputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='0', NumberOfOutputTerminals='3'. 
+Statistical information for node 'LRGSA.COR.RESPONSE.MULTFORMAT'. 
+This is an information message produced by ACE statistics. 
+2021-01-27 13:55:35.835656     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122242', Key='1', Label='MQ Reply.ComIbmMQOutput', Type='MQOutputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='2'. 
+Statistical information for node 'MQ Reply.ComIbmMQOutput'. 
+This is an information message produced by ACE statistics. 
+2021-01-27 13:55:35.835680     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122242', Key='1', Label='SetCorrelId', Type='ComputeNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='6'. 
+Statistical information for node 'SetCorrelId'. 
+This is an information message produced by ACE statistics. 
+2021-01-27 13:55:35.835708     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122242', Key='1', Label='SetResponse', Type='ComputeNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='6'. 
+Statistical information for node 'SetResponse'. 
+This is an information message produced by ACE statistics. 
+2021-01-27 13:55:35.835744     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122242', Key='1', Label='Try Catch', Type='TryCatchNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='2'. 
+Statistical information for node 'Try Catch'. 
+This is an information message produced by ACE statistics. 
+
+====== Starting plaintext trace (process ID 6684980 - ESB001.COR.WTX.SERVICES) ======
+=== Build ib1100-L201216.45 (S1100-L201215.21186) - IBM App Connect Enterprise 11.0.0.11 ===
+=== Platform AIX / 00F9D1714C00 / 2 7 ===
+=== Timestamps are formatted in local time, 360 minutes before GMT. ===
+=== Time now 2021-01-27 14:21:05.061034 ===
+
+
+====== Starting plaintext trace (process ID 12190168 - ESB001.COR.WTX.SERVICES) ======
+=== Build ib1100-L201216.45 (S1100-L201215.21186) - IBM App Connect Enterprise 11.0.0.11 ===
+=== Platform AIX / 00F9D1714C00 / 2 7 ===
+=== Timestamps are formatted in local time, 360 minutes before GMT. ===
+=== Time now 2021-01-27 14:36:51.423584 ===
+
+
+====== Starting plaintext trace (process ID 14156166 - ESB001.COR.WTX.SERVICES) ======
+=== Build ib000-L200826.17556 (S000-L200825.16947) - IBM App Connect Enterprise 11.0.0.10 ===
+=== Platform AIX / 00F9D1714C00 / 2 7 ===
+=== Timestamps are formatted in local time, 360 minutes before GMT. ===
+=== Time now 2021-02-11 16:28:47.012896 ===
+
+
+====== Starting plaintext trace (process ID 46858500 - ESB001.COR.WTX.SERVICES) ======
+=== Build ib000-L200826.17556 (S000-L200825.16947) - IBM App Connect Enterprise 11.0.0.10 ===
+=== Platform AIX / 00F9D1714C00 / 2 7 ===
+=== Timestamps are formatted in local time, 360 minutes before GMT. ===
+=== Time now 2021-02-18 11:41:57.535064 ===
+
+
+====== Starting plaintext trace (process ID 11665664 - ESB001.COR.WTX.SERVICES) ======
+=== Build ib000-L200826.17556 (S000-L200825.16947) - IBM App Connect Enterprise 11.0.0.10 ===
+=== Platform AIX / 00F9D1714C00 / 2 7 ===
+=== Timestamps are formatted in local time, 360 minutes before GMT. ===
+=== Time now 2021-02-23 10:58:38.868928 ===
+
+
+====== Starting plaintext trace (process ID 13631744 - ESB001.COR.WTX.SERVICES) ======
+=== Build ib000-L200826.17556 (S000-L200825.16947) - IBM App Connect Enterprise 11.0.0.10 ===
+=== Platform AIX / 00F9D1714C00 / 2 7 ===
+=== Timestamps are formatted in local time, 360 minutes before GMT. ===
+=== Time now 2021-03-01 14:19:27.022628 ===
+
+
+====== Starting plaintext trace (process ID 22348228 - ESB001.COR.WTX.SERVICES) ======
+=== Build ib000-L200826.17556 (S000-L200825.16947) - IBM App Connect Enterprise 11.0.0.10 ===
+=== Platform AIX / 00F9D1714C00 / 2 7 ===
+=== Timestamps are formatted in local time, 360 minutes before GMT. ===
+=== Time now 2021-03-05 11:42:11.831528 ===
+
+2021-03-11 13:51:59.115416     8739  UserTrace   BIP2380I: ACE message flow statistics. ProcessID='22348228', Key='0', Type='SnapShot', Reason='Shutdown', integrationNodeLabel='ESB001', integrationNodeUUID='1466aaba-6ca3-11eb-ae3f-0a8805660000', integrationServerName='COR.WTX.SERVICES', integrationServerUUID='00000000-0000-0000-0000-000000000000', MessageFlowName='net.bac.services.CORTransformation.CORApplyTransformationResp', StartDate='2021-03-11', StartTime='13:51:37.851374', GMTStartTime='2021-03-11T19:51:37.851+00:00', EndDate='2021-03-11', GMTEndTime='2021-03-11T19:51:57.855+00:00', EndTime='13:51:57.855271', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CPUTimeWaitingForInputMessage='216', ElapsedTimeWaitingForInputMessage='20003017', TotalInputMessages='0', TotalSizeOfInputMessages='0', MaximumSizeOfInputMessages='0', MinimumSizeOfInputMessages='0', NumberOfThreadsInPool='1', TimesMaximumNumberOfThreadsReached='0', TotalNumberOfMQErrors='0', TotalNumberOfMessagesWithErrors='0', TotalNumberOfErrorsProcessingMessages='0', TotalNumberOfTimeOuts='0', TotalNumberOfCommits='0', TotalNumberOfBackouts='0', AccountingOrigin='Anonymous'. 
+Statistical information for message flow 'net.bac.services.CORTransformation.CORApplyTransformationResp' in integration node 'ESB001'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.116740     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='0', Label='Core Output', Type='MQOutputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='2'. 
+Statistical information for node 'Core Output'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.116800     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='0', Label='Dump_ExceptionList_SubFlowV', Type='SubFlowNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'Dump_ExceptionList_SubFlowV'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.116836     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='0', Label='Dump_ExceptionList_SubFlowV.Dump Exception', Type='TraceNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'Dump_ExceptionList_SubFlowV.Dump Exception'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.116876     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='0', Label='Dump_ExceptionList_SubFlowV.GetVaribles', Type='ComputeNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='6'. 
+Statistical information for node 'Dump_ExceptionList_SubFlowV.GetVaribles'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.116912     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='0', Label='Dump_ExceptionList_SubFlowV.InTerminal.InErrMsg', Type='InputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'Dump_ExceptionList_SubFlowV.InTerminal.InErrMsg'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.116948     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='0', Label='Dump_ExceptionList_SubFlowV.OutTerminal.OutErrMsg', Type='OutputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'Dump_ExceptionList_SubFlowV.OutTerminal.OutErrMsg'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.116984     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='0', Label='Dump_ExceptionList_SubFlowV2', Type='SubFlowNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'Dump_ExceptionList_SubFlowV2'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.117020     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='0', Label='Dump_ExceptionList_SubFlowV2.Dump Exception', Type='TraceNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'Dump_ExceptionList_SubFlowV2.Dump Exception'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.117064     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='0', Label='Dump_ExceptionList_SubFlowV2.GetVaribles', Type='ComputeNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='6'. 
+Statistical information for node 'Dump_ExceptionList_SubFlowV2.GetVaribles'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.117100     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='0', Label='Dump_ExceptionList_SubFlowV2.InTerminal.InErrMsg', Type='InputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'Dump_ExceptionList_SubFlowV2.InTerminal.InErrMsg'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.117136     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='0', Label='Dump_ExceptionList_SubFlowV2.OutTerminal.OutErrMsg', Type='OutputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'Dump_ExceptionList_SubFlowV2.OutTerminal.OutErrMsg'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.117172     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='0', Label='Get Context', Type='MQGetNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='4'. 
+Statistical information for node 'Get Context'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.117208     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='0', Label='LRGSA.COR.RESPONSE.APPLYTRANSFORMATION', Type='MQInputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='0', NumberOfOutputTerminals='3'. 
+Statistical information for node 'LRGSA.COR.RESPONSE.APPLYTRANSFORMATION'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.117240     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='0', Label='SetResponse', Type='ComputeNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='6'. 
+Statistical information for node 'SetResponse'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.117280     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='0', Label='Try Catch', Type='TryCatchNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='2'. 
+Statistical information for node 'Try Catch'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.117352     8739  UserTrace   BIP2380I: ACE message flow statistics. ProcessID='22348228', Key='1', Type='SnapShot', Reason='Shutdown', integrationNodeLabel='ESB001', integrationNodeUUID='1466aaba-6ca3-11eb-ae3f-0a8805660000', integrationServerName='COR.WTX.SERVICES', integrationServerUUID='00000000-0000-0000-0000-000000000000', MessageFlowName='net.bac.services.CORTransformation.CORFileTransfer', StartDate='2021-03-11', StartTime='13:51:38.850860', GMTStartTime='2021-03-11T19:51:38.850+00:00', EndDate='2021-03-11', GMTEndTime='2021-03-11T19:51:58.893+00:00', EndTime='13:51:58.893768', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CPUTimeWaitingForInputMessage='453', ElapsedTimeWaitingForInputMessage='40016448', TotalInputMessages='0', TotalSizeOfInputMessages='0', MaximumSizeOfInputMessages='0', MinimumSizeOfInputMessages='0', NumberOfThreadsInPool='2', TimesMaximumNumberOfThreadsReached='0', TotalNumberOfMQErrors='0', TotalNumberOfMessagesWithErrors='0', TotalNumberOfErrorsProcessingMessages='0', TotalNumberOfTimeOuts='0', TotalNumberOfCommits='0', TotalNumberOfBackouts='0', AccountingOrigin='Anonymous'. 
+Statistical information for message flow 'net.bac.services.CORTransformation.CORFileTransfer' in integration node 'ESB001'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.117412     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='1', Label='CORTReportError', Type='SubFlowNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'CORTReportError'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.117444     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='1', Label='CORTReportError.Dump_ExceptionList_SubFlowV', Type='SubFlowNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'CORTReportError.Dump_ExceptionList_SubFlowV'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.117468     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='1', Label='CORTReportError.Dump_ExceptionList_SubFlowV.Dump Exception', Type='TraceNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'CORTReportError.Dump_ExceptionList_SubFlowV.Dump Exception'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.117500     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='1', Label='CORTReportError.Dump_ExceptionList_SubFlowV.GetVaribles', Type='ComputeNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='6'. 
+Statistical information for node 'CORTReportError.Dump_ExceptionList_SubFlowV.GetVaribles'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.117528     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='1', Label='CORTReportError.Dump_ExceptionList_SubFlowV.InTerminal.InErrMsg', Type='InputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'CORTReportError.Dump_ExceptionList_SubFlowV.InTerminal.InErrMsg'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.117560     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='1', Label='CORTReportError.Dump_ExceptionList_SubFlowV.OutTerminal.OutErrMsg', Type='OutputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'CORTReportError.Dump_ExceptionList_SubFlowV.OutTerminal.OutErrMsg'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.117592     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='1', Label='CORTReportError.Error', Type='MQOutputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='2'. 
+Statistical information for node 'CORTReportError.Error'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.117620     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='1', Label='CORTReportError.InTerminal.Input', Type='InputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'CORTReportError.InTerminal.Input'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.117648     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='1', Label='CORTReportError.SetError', Type='ComputeNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='6'. 
+Statistical information for node 'CORTReportError.SetError'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.117676     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='1', Label='CleanCache', Type='ComputeNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='6'. 
+Statistical information for node 'CleanCache'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.117704     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='1', Label='Dump_ExceptionList_SubFlowV2', Type='SubFlowNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'Dump_ExceptionList_SubFlowV2'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.117728     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='1', Label='Dump_ExceptionList_SubFlowV2.Dump Exception', Type='TraceNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'Dump_ExceptionList_SubFlowV2.Dump Exception'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.117760     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='1', Label='Dump_ExceptionList_SubFlowV2.GetVaribles', Type='ComputeNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='6'. 
+Statistical information for node 'Dump_ExceptionList_SubFlowV2.GetVaribles'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.117796     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='1', Label='Dump_ExceptionList_SubFlowV2.InTerminal.InErrMsg', Type='InputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'Dump_ExceptionList_SubFlowV2.InTerminal.InErrMsg'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.117820     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='1', Label='Dump_ExceptionList_SubFlowV2.OutTerminal.OutErrMsg', Type='OutputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'Dump_ExceptionList_SubFlowV2.OutTerminal.OutErrMsg'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.117848     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='1', Label='Error', Type='MQOutputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='2'. 
+Statistical information for node 'Error'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.117876     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='1', Label='FO1', Type='FlowOrderNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='3'. 
+Statistical information for node 'FO1'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.117904     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='1', Label='FO2', Type='FlowOrderNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='3'. 
+Statistical information for node 'FO2'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.117932     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='1', Label='FO3', Type='FlowOrderNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='3'. 
+Statistical information for node 'FO3'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.117960     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='1', Label='File', Type='MQOutputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='2'. 
+Statistical information for node 'File'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.117988     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='1', Label='GetContext', Type='MQGetNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='4'. 
+Statistical information for node 'GetContext'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.118016     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='1', Label='GetParams', Type='ComputeNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='6'. 
+Statistical information for node 'GetParams'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.118048     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='1', Label='LRGSA.COR.REQUEST.FILETRANSFERBLOB', Type='MQInputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='0', NumberOfOutputTerminals='3'. 
+Statistical information for node 'LRGSA.COR.REQUEST.FILETRANSFERBLOB'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.118076     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='1', Label='MQ Reply.ComIbmMQOutput', Type='MQOutputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='2'. 
+Statistical information for node 'MQ Reply.ComIbmMQOutput'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.118108     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='1', Label='PutMsgId', Type='ComputeNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='6'. 
+Statistical information for node 'PutMsgId'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.118132     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='1', Label='RefreshCache Input', Type='MQInputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='0', NumberOfOutputTerminals='3'. 
+Statistical information for node 'RefreshCache Input'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.118160     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='1', Label='Report Output', Type='MQOutputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='2'. 
+Statistical information for node 'Report Output'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.118192     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='1', Label='Service', Type='MQOutputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='2'. 
+Statistical information for node 'Service'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.118216     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='1', Label='SetCorrelId', Type='ComputeNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='6'. 
+Statistical information for node 'SetCorrelId'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.118272     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='1', Label='SetMsgId', Type='ComputeNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='6'. 
+Statistical information for node 'SetMsgId'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.118296     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='1', Label='SetQFILE', Type='ComputeNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='6'. 
+Statistical information for node 'SetQFILE'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.118336     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='1', Label='SetResponse', Type='ComputeNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='6'. 
+Statistical information for node 'SetResponse'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.118364     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='1', Label='Try Catch', Type='TryCatchNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='2'. 
+Statistical information for node 'Try Catch'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.118420     8739  UserTrace   BIP2380I: ACE message flow statistics. ProcessID='22348228', Key='2', Type='SnapShot', Reason='Shutdown', integrationNodeLabel='ESB001', integrationNodeUUID='1466aaba-6ca3-11eb-ae3f-0a8805660000', integrationServerName='COR.WTX.SERVICES', integrationServerUUID='00000000-0000-0000-0000-000000000000', MessageFlowName='net.bac.services.CORTransformation.CORMultResponseFormat', StartDate='2021-03-11', StartTime='13:51:37.831948', GMTStartTime='2021-03-11T19:51:37.831+00:00', EndDate='2021-03-11', GMTEndTime='2021-03-11T19:51:57.839+00:00', EndTime='13:51:57.839140', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CPUTimeWaitingForInputMessage='267', ElapsedTimeWaitingForInputMessage='20005699', TotalInputMessages='0', TotalSizeOfInputMessages='0', MaximumSizeOfInputMessages='0', MinimumSizeOfInputMessages='0', NumberOfThreadsInPool='1', TimesMaximumNumberOfThreadsReached='0', TotalNumberOfMQErrors='0', TotalNumberOfMessagesWithErrors='0', TotalNumberOfErrorsProcessingMessages='0', TotalNumberOfTimeOuts='0', TotalNumberOfCommits='0', TotalNumberOfBackouts='0', AccountingOrigin='Anonymous'. 
+Statistical information for message flow 'net.bac.services.CORTransformation.CORMultResponseFormat' in integration node 'ESB001'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.118472     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='2', Label='CORTReportError', Type='SubFlowNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'CORTReportError'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.118504     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='2', Label='CORTReportError.Dump_ExceptionList_SubFlowV', Type='SubFlowNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'CORTReportError.Dump_ExceptionList_SubFlowV'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.118532     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='2', Label='CORTReportError.Dump_ExceptionList_SubFlowV.Dump Exception', Type='TraceNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'CORTReportError.Dump_ExceptionList_SubFlowV.Dump Exception'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.118564     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='2', Label='CORTReportError.Dump_ExceptionList_SubFlowV.GetVaribles', Type='ComputeNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='6'. 
+Statistical information for node 'CORTReportError.Dump_ExceptionList_SubFlowV.GetVaribles'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.118596     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='2', Label='CORTReportError.Dump_ExceptionList_SubFlowV.InTerminal.InErrMsg', Type='InputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'CORTReportError.Dump_ExceptionList_SubFlowV.InTerminal.InErrMsg'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.118620     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='2', Label='CORTReportError.Dump_ExceptionList_SubFlowV.OutTerminal.OutErrMsg', Type='OutputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'CORTReportError.Dump_ExceptionList_SubFlowV.OutTerminal.OutErrMsg'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.118648     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='2', Label='CORTReportError.Error', Type='MQOutputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='2'. 
+Statistical information for node 'CORTReportError.Error'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.118680     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='2', Label='CORTReportError.InTerminal.Input', Type='InputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'CORTReportError.InTerminal.Input'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.118704     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='2', Label='CORTReportError.SetError', Type='ComputeNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='6'. 
+Statistical information for node 'CORTReportError.SetError'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.118732     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='2', Label='Dump_ExceptionList_SubFlowV2', Type='SubFlowNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'Dump_ExceptionList_SubFlowV2'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.118764     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='2', Label='Dump_ExceptionList_SubFlowV2.Dump Exception', Type='TraceNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'Dump_ExceptionList_SubFlowV2.Dump Exception'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.118796     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='2', Label='Dump_ExceptionList_SubFlowV2.GetVaribles', Type='ComputeNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='6'. 
+Statistical information for node 'Dump_ExceptionList_SubFlowV2.GetVaribles'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.118824     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='2', Label='Dump_ExceptionList_SubFlowV2.InTerminal.InErrMsg', Type='InputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'Dump_ExceptionList_SubFlowV2.InTerminal.InErrMsg'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.118856     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='2', Label='Dump_ExceptionList_SubFlowV2.OutTerminal.OutErrMsg', Type='OutputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'Dump_ExceptionList_SubFlowV2.OutTerminal.OutErrMsg'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.118880     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='2', Label='LRGSA.COR.RESPONSE.MULTFORMAT', Type='MQInputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='0', NumberOfOutputTerminals='3'. 
+Statistical information for node 'LRGSA.COR.RESPONSE.MULTFORMAT'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.118908     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='2', Label='MQ Reply.ComIbmMQOutput', Type='MQOutputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='2'. 
+Statistical information for node 'MQ Reply.ComIbmMQOutput'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.118940     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='2', Label='SetCorrelId', Type='ComputeNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='6'. 
+Statistical information for node 'SetCorrelId'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.118964     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='2', Label='SetResponse', Type='ComputeNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='6'. 
+Statistical information for node 'SetResponse'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.118992     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='2', Label='Try Catch', Type='TryCatchNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='2'. 
+Statistical information for node 'Try Catch'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.119044     8739  UserTrace   BIP2380I: ACE message flow statistics. ProcessID='22348228', Key='3', Type='SnapShot', Reason='Shutdown', integrationNodeLabel='ESB001', integrationNodeUUID='1466aaba-6ca3-11eb-ae3f-0a8805660000', integrationServerName='COR.WTX.SERVICES', integrationServerUUID='00000000-0000-0000-0000-000000000000', MessageFlowName='net.bac.services.CORTransformation.CORNonMTFileResponseFormat', StartDate='2021-03-11', StartTime='13:51:38.843456', GMTStartTime='2021-03-11T19:51:38.843+00:00', EndDate='2021-03-11', GMTEndTime='2021-03-11T19:51:58.867+00:00', EndTime='13:51:58.867116', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CPUTimeWaitingForInputMessage='199', ElapsedTimeWaitingForInputMessage='20022933', TotalInputMessages='0', TotalSizeOfInputMessages='0', MaximumSizeOfInputMessages='0', MinimumSizeOfInputMessages='0', NumberOfThreadsInPool='1', TimesMaximumNumberOfThreadsReached='0', TotalNumberOfMQErrors='0', TotalNumberOfMessagesWithErrors='0', TotalNumberOfErrorsProcessingMessages='0', TotalNumberOfTimeOuts='0', TotalNumberOfCommits='0', TotalNumberOfBackouts='0', AccountingOrigin='Anonymous'. 
+Statistical information for message flow 'net.bac.services.CORTransformation.CORNonMTFileResponseFormat' in integration node 'ESB001'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.119100     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='3', Label='CORTReportError', Type='SubFlowNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'CORTReportError'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.119128     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='3', Label='CORTReportError.Dump_ExceptionList_SubFlowV', Type='SubFlowNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'CORTReportError.Dump_ExceptionList_SubFlowV'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.119156     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='3', Label='CORTReportError.Dump_ExceptionList_SubFlowV.Dump Exception', Type='TraceNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'CORTReportError.Dump_ExceptionList_SubFlowV.Dump Exception'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.119184     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='3', Label='CORTReportError.Dump_ExceptionList_SubFlowV.GetVaribles', Type='ComputeNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='6'. 
+Statistical information for node 'CORTReportError.Dump_ExceptionList_SubFlowV.GetVaribles'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.119212     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='3', Label='CORTReportError.Dump_ExceptionList_SubFlowV.InTerminal.InErrMsg', Type='InputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'CORTReportError.Dump_ExceptionList_SubFlowV.InTerminal.InErrMsg'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.119248     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='3', Label='CORTReportError.Dump_ExceptionList_SubFlowV.OutTerminal.OutErrMsg', Type='OutputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'CORTReportError.Dump_ExceptionList_SubFlowV.OutTerminal.OutErrMsg'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.119276     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='3', Label='CORTReportError.Error', Type='MQOutputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='2'. 
+Statistical information for node 'CORTReportError.Error'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.119304     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='3', Label='CORTReportError.InTerminal.Input', Type='InputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'CORTReportError.InTerminal.Input'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.119332     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='3', Label='CORTReportError.SetError', Type='ComputeNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='6'. 
+Statistical information for node 'CORTReportError.SetError'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.119360     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='3', Label='CRGSA.WTX.PROCESS.NONMTRESPONSE', Type='MQInputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='0', NumberOfOutputTerminals='3'. 
+Statistical information for node 'CRGSA.WTX.PROCESS.NONMTRESPONSE'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.119388     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='3', Label='Dump_ExceptionList_SubFlowV2', Type='SubFlowNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'Dump_ExceptionList_SubFlowV2'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.119416     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='3', Label='Dump_ExceptionList_SubFlowV2.Dump Exception', Type='TraceNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'Dump_ExceptionList_SubFlowV2.Dump Exception'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.119440     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='3', Label='Dump_ExceptionList_SubFlowV2.GetVaribles', Type='ComputeNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='6'. 
+Statistical information for node 'Dump_ExceptionList_SubFlowV2.GetVaribles'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.119476     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='3', Label='Dump_ExceptionList_SubFlowV2.InTerminal.InErrMsg', Type='InputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'Dump_ExceptionList_SubFlowV2.InTerminal.InErrMsg'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.119508     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='3', Label='Dump_ExceptionList_SubFlowV2.OutTerminal.OutErrMsg', Type='OutputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'Dump_ExceptionList_SubFlowV2.OutTerminal.OutErrMsg'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.119532     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='3', Label='MQ Reply.ComIbmMQOutput', Type='MQOutputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='2'. 
+Statistical information for node 'MQ Reply.ComIbmMQOutput'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.119560     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='3', Label='SetCorrelId', Type='ComputeNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='6'. 
+Statistical information for node 'SetCorrelId'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.119592     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='3', Label='SetXMLResponse', Type='ComputeNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='6'. 
+Statistical information for node 'SetXMLResponse'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.119616     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='3', Label='Try Catch', Type='TryCatchNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='2'. 
+Statistical information for node 'Try Catch'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.119664     8739  UserTrace   BIP2380I: ACE message flow statistics. ProcessID='22348228', Key='4', Type='SnapShot', Reason='Shutdown', integrationNodeLabel='ESB001', integrationNodeUUID='1466aaba-6ca3-11eb-ae3f-0a8805660000', integrationServerName='COR.WTX.SERVICES', integrationServerUUID='00000000-0000-0000-0000-000000000000', MessageFlowName='net.bac.services.CORTransformation.CORReportFileTransfer', StartDate='2021-03-11', StartTime='13:51:37.994722', GMTStartTime='2021-03-11T19:51:37.994+00:00', EndDate='2021-03-11', GMTEndTime='2021-03-11T19:51:57.997+00:00', EndTime='13:51:57.997537', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CPUTimeWaitingForInputMessage='299', ElapsedTimeWaitingForInputMessage='20002208', TotalInputMessages='0', TotalSizeOfInputMessages='0', MaximumSizeOfInputMessages='0', MinimumSizeOfInputMessages='0', NumberOfThreadsInPool='1', TimesMaximumNumberOfThreadsReached='0', TotalNumberOfMQErrors='0', TotalNumberOfMessagesWithErrors='0', TotalNumberOfErrorsProcessingMessages='0', TotalNumberOfTimeOuts='0', TotalNumberOfCommits='0', TotalNumberOfBackouts='0', AccountingOrigin='Anonymous'. 
+Statistical information for message flow 'net.bac.services.CORTransformation.CORReportFileTransfer' in integration node 'ESB001'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.119724     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='4', Label='InsertMsgId', Type='ComputeNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='6'. 
+Statistical information for node 'InsertMsgId'. 
+This is an information message produced by ACE statistics. 
+2021-03-11 13:51:59.119756     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='22348228', Key='4', Label='XMLBAC Input', Type='MQInputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='0', NumberOfOutputTerminals='3'. 
+Statistical information for node 'XMLBAC Input'. 
+This is an information message produced by ACE statistics. 
+
+====== Starting plaintext trace (process ID 22348230 - ESB001.COR.WTX.SERVICES) ======
+=== Build ib000-L200826.17556 (S000-L200825.16947) - IBM App Connect Enterprise 11.0.0.10 ===
+=== Platform AIX / 00F9D1714C00 / 2 7 ===
+=== Timestamps are formatted in local time, 360 minutes before GMT. ===
+=== Time now 2021-03-11 13:52:26.552542 ===
+
+
+====== Starting plaintext trace (process ID 8847772 - ESB001.COR.WTX.SERVICES) ======
+=== Build ib000-L200826.17556 (S000-L200825.16947) - IBM App Connect Enterprise 11.0.0.10 ===
+=== Platform AIX / 00F9D1714C00 / 2 7 ===
+=== Timestamps are formatted in local time, 360 minutes before GMT. ===
+=== Time now 2021-03-11 14:16:45.064792 ===
+
+
+====== Starting plaintext trace (process ID 12124560 - ESB001.COR.WTX.SERVICES) ======
+=== Build ib000-L200826.17556 (S000-L200825.16947) - IBM App Connect Enterprise 11.0.0.10 ===
+=== Platform AIX / 00F9D1714C00 / 2 7 ===
+=== Timestamps are formatted in local time, 360 minutes before GMT. ===
+=== Time now 2021-03-11 15:14:10.917723 ===
+
+
+====== Starting plaintext trace (process ID 12124614 - ESB001.COR.WTX.SERVICES) ======
+=== Build ib000-L200826.17556 (S000-L200825.16947) - IBM App Connect Enterprise 11.0.0.10 ===
+=== Platform AIX / 00F9D1714C00 / 2 7 ===
+=== Timestamps are formatted in local time, 360 minutes before GMT. ===
+=== Time now 2021-03-11 15:30:48.807528 ===
+
+
+====== Starting plaintext trace (process ID 16122188 - ESB001.COR.WTX.SERVICES) ======
+=== Build ib000-L200826.17556 (S000-L200825.16947) - IBM App Connect Enterprise 11.0.0.10 ===
+=== Platform AIX / 00F9D1714C00 / 2 7 ===
+=== Timestamps are formatted in local time, 360 minutes before GMT. ===
+=== Time now 2021-03-11 16:00:08.535427 ===
+
+2021-04-05 13:12:49.167284     8739  UserTrace   BIP2380I: ACE message flow statistics. ProcessID='16122188', Key='0', Type='SnapShot', Reason='Shutdown', integrationNodeLabel='ESB001', integrationNodeUUID='1466aaba-6ca3-11eb-ae3f-0a8805660000', integrationServerName='COR.WTX.SERVICES', integrationServerUUID='00000000-0000-0000-0000-000000000000', MessageFlowName='net.bac.services.CORTransformation.CORApplyTransformationResp', StartDate='2021-04-05', StartTime='13:12:28.172820', GMTStartTime='2021-04-05T19:12:28.172+00:00', EndDate='2021-04-05', GMTEndTime='2021-04-05T19:12:48.174+00:00', EndTime='13:12:48.174615', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CPUTimeWaitingForInputMessage='160', ElapsedTimeWaitingForInputMessage='20001371', TotalInputMessages='0', TotalSizeOfInputMessages='0', MaximumSizeOfInputMessages='0', MinimumSizeOfInputMessages='0', NumberOfThreadsInPool='1', TimesMaximumNumberOfThreadsReached='0', TotalNumberOfMQErrors='0', TotalNumberOfMessagesWithErrors='0', TotalNumberOfErrorsProcessingMessages='0', TotalNumberOfTimeOuts='0', TotalNumberOfCommits='0', TotalNumberOfBackouts='0', AccountingOrigin='Anonymous'. 
+Statistical information for message flow 'net.bac.services.CORTransformation.CORApplyTransformationResp' in integration node 'ESB001'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.171248     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='0', Label='Core Output', Type='MQOutputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='2'. 
+Statistical information for node 'Core Output'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.171316     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='0', Label='Dump_ExceptionList_SubFlowV.Dump Exception', Type='TraceNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'Dump_ExceptionList_SubFlowV.Dump Exception'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.171348     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='0', Label='Dump_ExceptionList_SubFlowV.GetVaribles', Type='ComputeNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='6'. 
+Statistical information for node 'Dump_ExceptionList_SubFlowV.GetVaribles'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.171380     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='0', Label='Dump_ExceptionList_SubFlowV.net.bac.services.common.Dump_ExceptionList_SubFlowV2#InTerminal.Input', Type='InputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'Dump_ExceptionList_SubFlowV.net.bac.services.common.Dump_ExceptionList_SubFlowV2#InTerminal.Input'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.171408     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='0', Label='Dump_ExceptionList_SubFlowV.net.bac.services.common.Dump_ExceptionList_SubFlowV2#OutTerminal.Output', Type='OutputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'Dump_ExceptionList_SubFlowV.net.bac.services.common.Dump_ExceptionList_SubFlowV2#OutTerminal.Output'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.171440     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='0', Label='Dump_ExceptionList_SubFlowV2.Dump Exception', Type='TraceNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'Dump_ExceptionList_SubFlowV2.Dump Exception'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.171480     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='0', Label='Dump_ExceptionList_SubFlowV2.GetVaribles', Type='ComputeNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='6'. 
+Statistical information for node 'Dump_ExceptionList_SubFlowV2.GetVaribles'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.171508     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='0', Label='Dump_ExceptionList_SubFlowV2.net.bac.services.common.Dump_ExceptionList_SubFlowV2#InTerminal.Input', Type='InputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'Dump_ExceptionList_SubFlowV2.net.bac.services.common.Dump_ExceptionList_SubFlowV2#InTerminal.Input'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.171540     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='0', Label='Dump_ExceptionList_SubFlowV2.net.bac.services.common.Dump_ExceptionList_SubFlowV2#OutTerminal.Output', Type='OutputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'Dump_ExceptionList_SubFlowV2.net.bac.services.common.Dump_ExceptionList_SubFlowV2#OutTerminal.Output'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.171568     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='0', Label='Get Context', Type='MQGetNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='4'. 
+Statistical information for node 'Get Context'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.171596     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='0', Label='LRGSA.COR.RESPONSE.APPLYTRANSFORMATION', Type='MQInputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='0', NumberOfOutputTerminals='3'. 
+Statistical information for node 'LRGSA.COR.RESPONSE.APPLYTRANSFORMATION'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.171628     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='0', Label='SetResponse', Type='ComputeNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='6'. 
+Statistical information for node 'SetResponse'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.171656     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='0', Label='Try Catch', Type='TryCatchNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='2'. 
+Statistical information for node 'Try Catch'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.171712     8739  UserTrace   BIP2380I: ACE message flow statistics. ProcessID='16122188', Key='1', Type='SnapShot', Reason='Shutdown', integrationNodeLabel='ESB001', integrationNodeUUID='1466aaba-6ca3-11eb-ae3f-0a8805660000', integrationServerName='COR.WTX.SERVICES', integrationServerUUID='00000000-0000-0000-0000-000000000000', MessageFlowName='net.bac.services.CORTransformation.CORFileTransfer', StartDate='2021-04-05', StartTime='13:12:28.149311', GMTStartTime='2021-04-05T19:12:28.149+00:00', EndDate='2021-04-05', GMTEndTime='2021-04-05T19:12:48.177+00:00', EndTime='13:12:48.177204', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CPUTimeWaitingForInputMessage='325', ElapsedTimeWaitingForInputMessage='40002980', TotalInputMessages='0', TotalSizeOfInputMessages='0', MaximumSizeOfInputMessages='0', MinimumSizeOfInputMessages='0', NumberOfThreadsInPool='2', TimesMaximumNumberOfThreadsReached='0', TotalNumberOfMQErrors='0', TotalNumberOfMessagesWithErrors='0', TotalNumberOfErrorsProcessingMessages='0', TotalNumberOfTimeOuts='0', TotalNumberOfCommits='0', TotalNumberOfBackouts='0', AccountingOrigin='Anonymous'. 
+Statistical information for message flow 'net.bac.services.CORTransformation.CORFileTransfer' in integration node 'ESB001'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.171776     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='1', Label='CORTReportError.Dump_ExceptionList_SubFlowV.Dump Exception', Type='TraceNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'CORTReportError.Dump_ExceptionList_SubFlowV.Dump Exception'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.171812     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='1', Label='CORTReportError.Dump_ExceptionList_SubFlowV.GetVaribles', Type='ComputeNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='6'. 
+Statistical information for node 'CORTReportError.Dump_ExceptionList_SubFlowV.GetVaribles'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.171836     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='1', Label='CORTReportError.Dump_ExceptionList_SubFlowV.net.bac.services.common.Dump_ExceptionList_SubFlowV2#InTerminal.Input', Type='InputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'CORTReportError.Dump_ExceptionList_SubFlowV.net.bac.services.common.Dump_ExceptionList_SubFlowV2#InTerminal.Input'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.171868     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='1', Label='CORTReportError.Dump_ExceptionList_SubFlowV.net.bac.services.common.Dump_ExceptionList_SubFlowV2#OutTerminal.Output', Type='OutputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'CORTReportError.Dump_ExceptionList_SubFlowV.net.bac.services.common.Dump_ExceptionList_SubFlowV2#OutTerminal.Output'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.171896     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='1', Label='CORTReportError.Error', Type='MQOutputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='2'. 
+Statistical information for node 'CORTReportError.Error'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.171928     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='1', Label='CORTReportError.SetError', Type='ComputeNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='6'. 
+Statistical information for node 'CORTReportError.SetError'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.171968     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='1', Label='CORTReportError.net.bac.services.CORTransformation.CORTReportError#InTerminal.Input', Type='InputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'CORTReportError.net.bac.services.CORTransformation.CORTReportError#InTerminal.Input'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.171996     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='1', Label='CleanCache', Type='ComputeNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='6'. 
+Statistical information for node 'CleanCache'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.172028     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='1', Label='Dump_ExceptionList_SubFlowV2.Dump Exception', Type='TraceNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'Dump_ExceptionList_SubFlowV2.Dump Exception'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.172056     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='1', Label='Dump_ExceptionList_SubFlowV2.GetVaribles', Type='ComputeNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='6'. 
+Statistical information for node 'Dump_ExceptionList_SubFlowV2.GetVaribles'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.172084     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='1', Label='Dump_ExceptionList_SubFlowV2.net.bac.services.common.Dump_ExceptionList_SubFlowV2#InTerminal.Input', Type='InputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'Dump_ExceptionList_SubFlowV2.net.bac.services.common.Dump_ExceptionList_SubFlowV2#InTerminal.Input'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.172116     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='1', Label='Dump_ExceptionList_SubFlowV2.net.bac.services.common.Dump_ExceptionList_SubFlowV2#OutTerminal.Output', Type='OutputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'Dump_ExceptionList_SubFlowV2.net.bac.services.common.Dump_ExceptionList_SubFlowV2#OutTerminal.Output'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.172144     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='1', Label='Error', Type='MQOutputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='2'. 
+Statistical information for node 'Error'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.172180     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='1', Label='FO1', Type='FlowOrderNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='3'. 
+Statistical information for node 'FO1'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.172212     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='1', Label='FO2', Type='FlowOrderNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='3'. 
+Statistical information for node 'FO2'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.172236     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='1', Label='FO3', Type='FlowOrderNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='3'. 
+Statistical information for node 'FO3'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.172268     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='1', Label='File', Type='MQOutputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='2'. 
+Statistical information for node 'File'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.172300     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='1', Label='GetContext', Type='MQGetNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='4'. 
+Statistical information for node 'GetContext'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.172324     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='1', Label='GetParams', Type='ComputeNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='6'. 
+Statistical information for node 'GetParams'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.172356     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='1', Label='LRGSA.COR.REQUEST.FILETRANSFERBLOB', Type='MQInputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='0', NumberOfOutputTerminals='3'. 
+Statistical information for node 'LRGSA.COR.REQUEST.FILETRANSFERBLOB'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.172388     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='1', Label='MQ Reply', Type='MQReplyNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='2'. 
+Statistical information for node 'MQ Reply'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.172416     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='1', Label='PutMsgId', Type='ComputeNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='6'. 
+Statistical information for node 'PutMsgId'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.172452     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='1', Label='RefreshCache Input', Type='MQInputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='0', NumberOfOutputTerminals='3'. 
+Statistical information for node 'RefreshCache Input'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.172480     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='1', Label='Report Output', Type='MQOutputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='2'. 
+Statistical information for node 'Report Output'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.172512     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='1', Label='Service', Type='MQOutputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='2'. 
+Statistical information for node 'Service'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.172540     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='1', Label='SetCorrelId', Type='ComputeNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='6'. 
+Statistical information for node 'SetCorrelId'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.172568     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='1', Label='SetMsgId', Type='ComputeNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='6'. 
+Statistical information for node 'SetMsgId'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.172600     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='1', Label='SetQFILE', Type='ComputeNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='6'. 
+Statistical information for node 'SetQFILE'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.172628     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='1', Label='SetResponse', Type='ComputeNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='6'. 
+Statistical information for node 'SetResponse'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.172656     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='1', Label='Try Catch', Type='TryCatchNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='2'. 
+Statistical information for node 'Try Catch'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.172716     8739  UserTrace   BIP2380I: ACE message flow statistics. ProcessID='16122188', Key='2', Type='SnapShot', Reason='Shutdown', integrationNodeLabel='ESB001', integrationNodeUUID='1466aaba-6ca3-11eb-ae3f-0a8805660000', integrationServerName='COR.WTX.SERVICES', integrationServerUUID='00000000-0000-0000-0000-000000000000', MessageFlowName='net.bac.services.CORTransformation.CORMultResponseFormat', StartDate='2021-04-05', StartTime='13:12:28.144536', GMTStartTime='2021-04-05T19:12:28.144+00:00', EndDate='2021-04-05', GMTEndTime='2021-04-05T19:12:48.146+00:00', EndTime='13:12:48.146233', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CPUTimeWaitingForInputMessage='314', ElapsedTimeWaitingForInputMessage='20000757', TotalInputMessages='0', TotalSizeOfInputMessages='0', MaximumSizeOfInputMessages='0', MinimumSizeOfInputMessages='0', NumberOfThreadsInPool='1', TimesMaximumNumberOfThreadsReached='0', TotalNumberOfMQErrors='0', TotalNumberOfMessagesWithErrors='0', TotalNumberOfErrorsProcessingMessages='0', TotalNumberOfTimeOuts='0', TotalNumberOfCommits='0', TotalNumberOfBackouts='0', AccountingOrigin='Anonymous'. 
+Statistical information for message flow 'net.bac.services.CORTransformation.CORMultResponseFormat' in integration node 'ESB001'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.172772     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='2', Label='CORTReportError.Dump_ExceptionList_SubFlowV.Dump Exception', Type='TraceNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'CORTReportError.Dump_ExceptionList_SubFlowV.Dump Exception'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.172800     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='2', Label='CORTReportError.Dump_ExceptionList_SubFlowV.GetVaribles', Type='ComputeNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='6'. 
+Statistical information for node 'CORTReportError.Dump_ExceptionList_SubFlowV.GetVaribles'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.172832     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='2', Label='CORTReportError.Dump_ExceptionList_SubFlowV.net.bac.services.common.Dump_ExceptionList_SubFlowV2#InTerminal.Input', Type='InputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'CORTReportError.Dump_ExceptionList_SubFlowV.net.bac.services.common.Dump_ExceptionList_SubFlowV2#InTerminal.Input'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.172864     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='2', Label='CORTReportError.Dump_ExceptionList_SubFlowV.net.bac.services.common.Dump_ExceptionList_SubFlowV2#OutTerminal.Output', Type='OutputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'CORTReportError.Dump_ExceptionList_SubFlowV.net.bac.services.common.Dump_ExceptionList_SubFlowV2#OutTerminal.Output'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.172932     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='2', Label='CORTReportError.Error', Type='MQOutputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='2'. 
+Statistical information for node 'CORTReportError.Error'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.172968     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='2', Label='CORTReportError.SetError', Type='ComputeNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='6'. 
+Statistical information for node 'CORTReportError.SetError'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.173000     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='2', Label='CORTReportError.net.bac.services.CORTransformation.CORTReportError#InTerminal.Input', Type='InputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'CORTReportError.net.bac.services.CORTransformation.CORTReportError#InTerminal.Input'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.173032     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='2', Label='Dump_ExceptionList_SubFlowV2.Dump Exception', Type='TraceNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'Dump_ExceptionList_SubFlowV2.Dump Exception'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.173060     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='2', Label='Dump_ExceptionList_SubFlowV2.GetVaribles', Type='ComputeNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='6'. 
+Statistical information for node 'Dump_ExceptionList_SubFlowV2.GetVaribles'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.173088     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='2', Label='Dump_ExceptionList_SubFlowV2.net.bac.services.common.Dump_ExceptionList_SubFlowV2#InTerminal.Input', Type='InputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'Dump_ExceptionList_SubFlowV2.net.bac.services.common.Dump_ExceptionList_SubFlowV2#InTerminal.Input'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.173120     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='2', Label='Dump_ExceptionList_SubFlowV2.net.bac.services.common.Dump_ExceptionList_SubFlowV2#OutTerminal.Output', Type='OutputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'Dump_ExceptionList_SubFlowV2.net.bac.services.common.Dump_ExceptionList_SubFlowV2#OutTerminal.Output'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.173148     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='2', Label='LRGSA.COR.RESPONSE.MULTFORMAT', Type='MQInputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='0', NumberOfOutputTerminals='3'. 
+Statistical information for node 'LRGSA.COR.RESPONSE.MULTFORMAT'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.173188     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='2', Label='MQ Reply', Type='MQReplyNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='2'. 
+Statistical information for node 'MQ Reply'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.173228     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='2', Label='SetCorrelId', Type='ComputeNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='6'. 
+Statistical information for node 'SetCorrelId'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.173256     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='2', Label='SetResponse', Type='ComputeNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='6'. 
+Statistical information for node 'SetResponse'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.173288     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='2', Label='Try Catch', Type='TryCatchNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='2'. 
+Statistical information for node 'Try Catch'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.173332     8739  UserTrace   BIP2380I: ACE message flow statistics. ProcessID='16122188', Key='3', Type='SnapShot', Reason='Shutdown', integrationNodeLabel='ESB001', integrationNodeUUID='1466aaba-6ca3-11eb-ae3f-0a8805660000', integrationServerName='COR.WTX.SERVICES', integrationServerUUID='00000000-0000-0000-0000-000000000000', MessageFlowName='net.bac.services.CORTransformation.CORNonMTFileResponseFormat', StartDate='2021-04-05', StartTime='13:12:28.146140', GMTStartTime='2021-04-05T19:12:28.146+00:00', EndDate='2021-04-05', GMTEndTime='2021-04-05T19:12:48.147+00:00', EndTime='13:12:48.147982', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CPUTimeWaitingForInputMessage='160', ElapsedTimeWaitingForInputMessage='20001353', TotalInputMessages='0', TotalSizeOfInputMessages='0', MaximumSizeOfInputMessages='0', MinimumSizeOfInputMessages='0', NumberOfThreadsInPool='1', TimesMaximumNumberOfThreadsReached='0', TotalNumberOfMQErrors='0', TotalNumberOfMessagesWithErrors='0', TotalNumberOfErrorsProcessingMessages='0', TotalNumberOfTimeOuts='0', TotalNumberOfCommits='0', TotalNumberOfBackouts='0', AccountingOrigin='Anonymous'. 
+Statistical information for message flow 'net.bac.services.CORTransformation.CORNonMTFileResponseFormat' in integration node 'ESB001'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.173388     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='3', Label='CORTReportError.Dump_ExceptionList_SubFlowV.Dump Exception', Type='TraceNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'CORTReportError.Dump_ExceptionList_SubFlowV.Dump Exception'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.173428     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='3', Label='CORTReportError.Dump_ExceptionList_SubFlowV.GetVaribles', Type='ComputeNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='6'. 
+Statistical information for node 'CORTReportError.Dump_ExceptionList_SubFlowV.GetVaribles'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.173460     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='3', Label='CORTReportError.Dump_ExceptionList_SubFlowV.net.bac.services.common.Dump_ExceptionList_SubFlowV2#InTerminal.Input', Type='InputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'CORTReportError.Dump_ExceptionList_SubFlowV.net.bac.services.common.Dump_ExceptionList_SubFlowV2#InTerminal.Input'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.173488     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='3', Label='CORTReportError.Dump_ExceptionList_SubFlowV.net.bac.services.common.Dump_ExceptionList_SubFlowV2#OutTerminal.Output', Type='OutputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'CORTReportError.Dump_ExceptionList_SubFlowV.net.bac.services.common.Dump_ExceptionList_SubFlowV2#OutTerminal.Output'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.173520     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='3', Label='CORTReportError.Error', Type='MQOutputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='2'. 
+Statistical information for node 'CORTReportError.Error'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.173548     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='3', Label='CORTReportError.SetError', Type='ComputeNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='6'. 
+Statistical information for node 'CORTReportError.SetError'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.173580     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='3', Label='CORTReportError.net.bac.services.CORTransformation.CORTReportError#InTerminal.Input', Type='InputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'CORTReportError.net.bac.services.CORTransformation.CORTReportError#InTerminal.Input'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.173612     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='3', Label='CRGSA.WTX.PROCESS.NONMTRESPONSE', Type='MQInputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='0', NumberOfOutputTerminals='3'. 
+Statistical information for node 'CRGSA.WTX.PROCESS.NONMTRESPONSE'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.173640     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='3', Label='Dump_ExceptionList_SubFlowV2.Dump Exception', Type='TraceNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'Dump_ExceptionList_SubFlowV2.Dump Exception'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.173676     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='3', Label='Dump_ExceptionList_SubFlowV2.GetVaribles', Type='ComputeNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='6'. 
+Statistical information for node 'Dump_ExceptionList_SubFlowV2.GetVaribles'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.173708     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='3', Label='Dump_ExceptionList_SubFlowV2.net.bac.services.common.Dump_ExceptionList_SubFlowV2#InTerminal.Input', Type='InputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'Dump_ExceptionList_SubFlowV2.net.bac.services.common.Dump_ExceptionList_SubFlowV2#InTerminal.Input'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.173736     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='3', Label='Dump_ExceptionList_SubFlowV2.net.bac.services.common.Dump_ExceptionList_SubFlowV2#OutTerminal.Output', Type='OutputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='1'. 
+Statistical information for node 'Dump_ExceptionList_SubFlowV2.net.bac.services.common.Dump_ExceptionList_SubFlowV2#OutTerminal.Output'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.173768     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='3', Label='MQ Reply', Type='MQReplyNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='2'. 
+Statistical information for node 'MQ Reply'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.173796     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='3', Label='SetCorrelId', Type='ComputeNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='6'. 
+Statistical information for node 'SetCorrelId'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.173824     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='3', Label='SetXMLResponse', Type='ComputeNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='6'. 
+Statistical information for node 'SetXMLResponse'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.173856     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='3', Label='Try Catch', Type='TryCatchNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='2'. 
+Statistical information for node 'Try Catch'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.173984     8739  UserTrace   BIP2380I: ACE message flow statistics. ProcessID='16122188', Key='4', Type='SnapShot', Reason='Shutdown', integrationNodeLabel='ESB001', integrationNodeUUID='1466aaba-6ca3-11eb-ae3f-0a8805660000', integrationServerName='COR.WTX.SERVICES', integrationServerUUID='00000000-0000-0000-0000-000000000000', MessageFlowName='net.bac.services.CORTransformation.CORReportFileTransfer', StartDate='2021-04-05', StartTime='13:12:28.172514', GMTStartTime='2021-04-05T19:12:28.172+00:00', EndDate='2021-04-05', GMTEndTime='2021-04-05T19:12:48.174+00:00', EndTime='13:12:48.174252', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CPUTimeWaitingForInputMessage='198', ElapsedTimeWaitingForInputMessage='20001368', TotalInputMessages='0', TotalSizeOfInputMessages='0', MaximumSizeOfInputMessages='0', MinimumSizeOfInputMessages='0', NumberOfThreadsInPool='1', TimesMaximumNumberOfThreadsReached='0', TotalNumberOfMQErrors='0', TotalNumberOfMessagesWithErrors='0', TotalNumberOfErrorsProcessingMessages='0', TotalNumberOfTimeOuts='0', TotalNumberOfCommits='0', TotalNumberOfBackouts='0', AccountingOrigin='Anonymous'. 
+Statistical information for message flow 'net.bac.services.CORTransformation.CORReportFileTransfer' in integration node 'ESB001'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.174044     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='4', Label='InsertMsgId', Type='ComputeNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='6'. 
+Statistical information for node 'InsertMsgId'. 
+This is an information message produced by ACE statistics. 
+2021-04-05 13:12:49.174076     8739  UserTrace   BIP2382I: ACE node statistics. ProcessID='16122188', Key='4', Label='XMLBAC Input', Type='MQInputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='0', NumberOfOutputTerminals='3'. 
+Statistical information for node 'XMLBAC Input'. 
+This is an information message produced by ACE statistics. 
+
+====== Starting plaintext trace (process ID 16122190 - ESB001.COR.WTX.SERVICES) ======
+=== Build ib000-L200826.17556 (S000-L200825.16947) - IBM App Connect Enterprise 11.0.0.10 ===
+=== Platform AIX / 00F9D1714C00 / 2 7 ===
+=== Timestamps are formatted in local time, 360 minutes before GMT. ===
+=== Time now 2021-04-05 13:13:26.071500 ===
+
+
+====== Starting plaintext trace (process ID 16122192 - ESB001.COR.WTX.SERVICES) ======
+=== Build ib000-L200826.17556 (S000-L200825.16947) - IBM App Connect Enterprise 11.0.0.10 ===
+=== Platform AIX / 00F9D1714C00 / 2 7 ===
+=== Timestamps are formatted in local time, 360 minutes before GMT. ===
+=== Time now 2021-04-05 13:34:11.194290 ===
+
+
+====== Starting plaintext trace (process ID 22348082 - ESB001.COR.WTX.SERVICES) ======
+=== Build ib000-L200826.17556 (S000-L200825.16947) - IBM App Connect Enterprise 11.0.0.10 ===
+=== Platform AIX / 00F9D1714C00 / 2 7 ===
+=== Timestamps are formatted in local time, 360 minutes before GMT. ===
+=== Time now 2021-05-17 14:24:02.602101 ===
+
+
+====== Starting plaintext trace (process ID 5636456 - ESB001.COR.WTX.SERVICES) ======
+=== Build ib000-L200826.17556 (S000-L200825.16947) - IBM App Connect Enterprise 11.0.0.10 ===
+=== Platform AIX / 00F9D1714C00 / 2 7 ===
+=== Timestamps are formatted in local time, 360 minutes before GMT. ===
+=== Time now 2021-05-20 17:10:45.453744 ===
+
+
+====== Starting plaintext trace (process ID 29229406 - ESB001.COR.WTX.SERVICES) ======
+=== Build ib000-L200826.17556 (S000-L200825.16947) - IBM App Connect Enterprise 11.0.0.10 ===
+=== Platform AIX / 00F9D1714C00 / 2 7 ===
+=== Timestamps are formatted in local time, 360 minutes before GMT. ===
+=== Time now 2021-05-21 01:44:56.782588 ===
+
+
+====== Starting plaintext trace (process ID 18809316 - ESB001.COR.WTX.SERVICES) ======
+=== Build ib000-L200826.17556 (S000-L200825.16947) - IBM App Connect Enterprise 11.0.0.10 ===
+=== Platform AIX / 00F9D1714C00 / 2 7 ===
+=== Timestamps are formatted in local time, 360 minutes before GMT. ===
+=== Time now 2021-06-04 09:39:46.948832 ===
+
+
+====== Starting plaintext trace (process ID 25952564 - ESB001.COR.WTX.SERVICES) ======
+=== Build ib000-L200826.17556 (S000-L200825.16947) - IBM App Connect Enterprise 11.0.0.10 ===
+=== Platform AIX / 00F9D1714C00 / 2 7 ===
+=== Timestamps are formatted in local time, 360 minutes before GMT. ===
+=== Time now 2021-06-04 09:56:27.137444 ===
+
